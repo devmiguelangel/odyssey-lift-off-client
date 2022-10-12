@@ -12,7 +12,9 @@ const root = createRoot(container);
 const client = new ApolloClient({
   uri: 'https://odyssey-lo-server.herokuapp.com/',
   cache: new InMemoryCache(),
-})
+  name: 'web',
+  version: '1.0',
+});
 
 root.render(
   <React.StrictMode>

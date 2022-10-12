@@ -10,7 +10,7 @@ const root = createRoot(container);
 
 // Apollo client instance
 const client = new ApolloClient({
-  uri: 'http://127.0.0.1:4000',
+  uri: 'https://odyssey-lo-server.herokuapp.com/',
   cache: new InMemoryCache(),
 })
 
